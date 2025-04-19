@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Trading Simulator UI
 
-## Getting Started
+A static frontend-only Trading Simulator built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This UI replicates a strategy testing interface for trading workflows.
 
-First, run the development server:
+##  Getting Started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Follow the steps below to run this project locally:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repo
+git clone https://github.com/your-username/trading-simulator.git
+cd trading-simulator
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install Dependecies
+   npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server
+   npm run dev
 
-## Learn More
+4. Visit http://localhost:3000 to view the app.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📄 Project Description
+This is a static Trading Simulator UI built using Next.js, TypeScript, and Tailwind CSS, designed to replicate the user flow of a trading strategy platform.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔍 Navigation Flow
+Users can explore the app using the top navigation bar, which includes:
+Home
+Features
+Pricing
 
-## Deploy on Vercel
+From the Features page, users can:
+Navigate to Portfolio Management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Inside Portfolio Management, users can:
+Navigate to both Strategy and Trading Simulator
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+On the Strategy page, clicking the Begin button takes users to the Strategy Builder interface.
+
+This simple navigation flow helps users simulate the journey of building and testing trading strategies.
+
